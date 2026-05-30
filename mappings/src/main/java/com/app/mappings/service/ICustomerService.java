@@ -6,4 +6,6 @@ import com.app.mappings.entities.Customer;
 public interface ICustomerService {
 
     CustomApiResponse saveNewCustomerDetails(Customer customer);
+
+    Customer getCustomerDetailsByCustomerId(Long customerId);
 }
